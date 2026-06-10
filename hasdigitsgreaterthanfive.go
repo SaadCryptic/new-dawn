@@ -7,8 +7,3 @@ func HasDigitGreaterThanFive(num string) bool {
 	}
 	return false
 }
-
-func main (){
-	println(HasDigitGreaterThanFive("123485")) // true
-	println(HasDigitGreaterThanFive("67890")) // true
-}
